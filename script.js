@@ -17,6 +17,7 @@ const radioButtons = [
 ]
 
 const handleClick = (selectedId) => {
+    const amount = document.getElementById(selectedId).children[document.getElementById(selectedId).children.length - 1].querySelector("span").textContent;
     radioElements.forEach((element, idx) => {
         const isSelected = element.id === selectedId;
         const table = tableElements[idx];
@@ -35,4 +36,6 @@ const handleClick = (selectedId) => {
         table.classList.toggle('display-none', !isSelected);
         icon.classList.toggle('display-none', !isSelected);
     });
+
+    document.getElementById("amount").textContent = amount;
 };
