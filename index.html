@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOGO</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body class="m-0 p-0">
+    <main class="w-341 height-100 flex flex-col gap-16 my-0 mx-auto">
+        <header class="flex justify-center align-center mt-50">
+            <div class="border-0-9 border-border-color w-90 height-0"></div>
+            <h1 class="px-7 text-20 font-600 primary">YAY! It's BOGO</h1>
+            <div class="border-0-9 border-border-color w-90 height-0"></div>
+        </header>
+
+        <section class="flex flex-col gap-30">
+            <article
+                class="border-2 border-primary-color bg-light-red height-134-11 flex justify-between py-40 px-20 relative cursor-pointer "
+                onclick="handleClick('radio-1')" id="radio-1">
+                <div class="flex gap-20">
+                    <!-- Radio button  -->
+                    <div class="w-14-46 height-14-46 rounded-100 border-0-9 border-primary-color flex justify-center align-center"
+                        role="radio" aria-checked="true" id="radio-button-1">
+                        <div class="w-9-04 height-9-04 bg-primary rounded-100"></div>
+                    </div>
+                    <div class="flex flex-col gap-20">
+                        <!-- Units -->
+                        <div class="flex flex-col gap-8">
+                            <div class="flex gap-8">
+                                <span class="font-600 text-14">1 Unit</span>
+                                <span class="font-400 text-12 white bg-primary rounded-1 py-2-5 px-5-5">10% Off</span>
+                            </div>
+                            <span class="font-400 text-12">Standard Price</span>
+                        </div>
+
+                        <!-- Table -->
+                        <div id="table-radio-1">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th></th>
+                                        <th class="text-9-04 font-400 text-align-left pb-6">Size</th>
+                                        <th class="text-9-04 font-400 text-align-left pb-6">Color</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="font-400 text-9-04 pr-5 pt-10">#1</td>
+                                        <td
+                                            class="w-60-98 height-20-31 rounded-1-81 border-0-9 border-light-gray-color bg-white text-10-85 font-400 p-5 relative">
+                                            <select name="" id=""
+                                                class="text-10-85 appearance-none w-100 border-0 outline-none">
+                                                <option value="S">S</option>
+                                                <option value="M">M</option>
+                                                <option value="L">L</option>
+                                            </select>
+                                            <span class="w-5-42 height-5-42 absolute right-10">▾</span>
+                                        </td>
+                                        <td
+                                            class="w-60-98 height-20-31 rounded-1-81 border-0-9 border-light-gray-color bg-white text-10-85 font-400 p-5 relative">
+                                            <select name="" id=""
+                                                class="text-10-85 appearance-none w-100 border-0 outline-none">
+                                                <option value="Black">Black</option>
+                                                <option value="Blue">Blue</option>
+                                                <option value="Red">Red</option>
+                                            </select>
+                                            <span class="w-5-42 height-5-42 absolute right-10">▾</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="font-400 text-9-04 pr-5 pt-10">#2</td>
+                                        <td
+                                            class="w-60-98 height-20-31 rounded-1-81 border-0-9 border-light-gray-color bg-white text-10-85 font-400 p-5 relative">
+                                            <select name="" id=""
+                                                class="text-10-85 appearance-none w-100 border-0 outline-none">
+                                                <option value="L">L</option>
+                                                <option value="M">M</option>
+                                                <option value="S">S</option>
+                                            </select>
+                                            <span class="w-5-42 height-5-42 absolute right-10">▾</span>
+                                        </td>
+                                        <td
+                                            class="w-60-98 height-20-31 rounded-1-81 border-0-9 border-light-gray-color bg-white text-10-85 font-400 p-5 relative">
+                                            <select name="" id=""
+                                                class="text-10-85 appearance-none w-100 border-0 outline-none">
+                                                <option value="Blue">Blue</option>
+                                                <option value="Black">Black</option>
+                                                <option value="Red">Red</option>
+                                            </select>
+                                            <span class="w-5-42 height-5-42 absolute right-10">▾</span>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- Price  -->
+                <div class="flex flex-col">
+                    <span class="text-14-46 font-600">$10.00 USD</span>
+                    <span class="font-400 text-10 text-decoration-line-through very-light-gray">$24.00 USD</span>
+                </div>
+            </article>
+
+            <article
+                class="border-0-9 border-border-color align-start height-34-11 flex justify-between py-40 px-20 relative cursor-pointer"
+                onclick="handleClick('radio-2')" id="radio-2">
+                <!-- Popular item  -->
+                <div class="absolute -top-11 right-5">
+                    <div class="w-119 height-26 border-0 bg-primary relative rounded-bl-4 rounded-br-4">
+                        <svg class="dark-red absolute -top-3 -left-17" width="25" height="25" viewBox="0 0 100 100"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <polygon points="70,10 40,50 70,50" fill="currentColor" />
+                        </svg>
+                        <span class="font-700 text-12 white height-26 flex justify-center align-center">MOST
+                            POPULAR</span>
+                        <svg class="dark-red absolute -top-3 -right-17" width="25" height="25" viewBox="0 0 100 100"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <polygon points="30,10 60,50 30,50" fill="currentColor" />
+                        </svg>
+                    </div>
+                </div>
+
+                <!-- Radio button -->
+                <div class="border-gray-color w-14-46 height-14-46 rounded-100 border-0-9 border-primary-color flex justify-center align-center"
+                    role="radio" aria-checked="false" id="radio-button-2">
+                    <div class="w-9-04 height-9-04 bg-primary rounded-100 display-none"></div>
+                </div>
+
+
+                <div class="flex flex-col gap-20">
+                    <!-- Units -->
+                    <div class="flex gap-8">
+                        <span class="font-600 text-14">3 Unit</span>
+                        <span class="font-400 text-12 white bg-primary rounded-1 py-2-5 px-5-5">30% Off</span>
+                    </div>
+                    <!-- Table  -->
+                    <div id="table-radio-2" class="display-none">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th></th>
+                                    <th class="text-9-04 font-400 text-align-left pb-6">Size</th>
+                                    <th class="text-9-04 font-400 text-align-left pb-6">Color</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="font-400 text-9-04 pr-5 pt-10">#1</td>
+                                    <td
+                                        class="w-60-98 height-20-31 rounded-1-81 border-0-9 border-light-gray-color bg-white text-10-85 font-400 p-5 relative">
+                                        <select name="" id=""
+                                            class="text-10-85 appearance-none w-100 border-0 outline-none">
+                                            <option value="S">S</option>
+                                            <option value="M">M</option>
+                                            <option value="L">L</option>
+                                        </select>
+                                        <span class="w-5-42 height-5-42 absolute right-10">▾</span>
+                                    </td>
+                                    <td
+                                        class="w-60-98 height-20-31 rounded-1-81 border-0-9 border-light-gray-color bg-white text-10-85 font-400 p-5 relative">
+                                        <select name="" id=""
+                                            class="text-10-85 appearance-none w-100 border-0 outline-none">
+                                            <option value="Black">Black</option>
+                                            <option value="Blue">Blue</option>
+                                            <option value="Red">Red</option>
+                                        </select>
+                                        <span class="w-5-42 height-5-42 absolute right-10">▾</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="font-400 text-9-04 pr-5 pt-10">#2</td>
+                                    <td
+                                        class="w-60-98 height-20-31 rounded-1-81 border-0-9 border-light-gray-color bg-white text-10-85 font-400 p-5 relative">
+                                        <select name="" id=""
+                                            class="text-10-85 appearance-none w-100 border-0 outline-none">
+                                            <option value="L">L</option>
+                                            <option value="M">M</option>
+                                            <option value="S">S</option>
+                                        </select>
+                                        <span class="w-5-42 height-5-42 absolute right-10">▾</span>
+                                    </td>
+                                    <td
+                                        class="w-60-98 height-20-31 rounded-1-81 border-0-9 border-light-gray-color bg-white text-10-85 font-400 p-5 relative">
+                                        <select name="" id=""
+                                            class="text-10-85 appearance-none w-100 border-0 outline-none">
+                                            <option value="Blue">Blue</option>
+                                            <option value="Black">Black</option>
+                                            <option value="Red">Red</option>
+                                        </select>
+                                        <span class="w-5-42 height-5-42 absolute right-10">▾</span>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Price  -->
+                <div class="flex flex-col">
+                    <span class="text-14-46 font-600">$24.00 USD</span>
+                    <span class="font-400 text-10 text-decoration-line-through very-light-gray">$24.00 USD</span>
+                </div>
+            </article>
+
+            <article
+                class="border-0-9 border-border-color height-34-11 flex justify-between py-40 px-20 relative cursor-pointer"
+                onclick="handleClick('radio-3')" id="radio-3">
+                <div class="flex gap-12">
+                    <!-- Radio button -->
+                    <div class="border-gray-color w-14-46 height-14-46 rounded-100 border-0-9 border-primary-color flex justify-center align-center"
+                        role="radio" aria-checked="false" id="radio-button-3">
+                        <div class="w-9-04 height-9-04 bg-primary rounded-100 display-none"></div>
+                    </div>
+
+                    <div class="flex flex-col gap-20">
+                        <!-- Units -->
+                        <div class="flex gap-8">
+                            <span class="font-600 text-14">3 Unit</span>
+                            <span class="font-400 text-12 white bg-primary rounded-1 py-2-5 px-5-5">30% Off</span>
+                        </div>
+
+                        <!-- Table -->
+                        <div id="table-radio-3" class="display-none">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th></th>
+                                        <th class="text-9-04 font-400 text-align-left pb-6">Size</th>
+                                        <th class="text-9-04 font-400 text-align-left pb-6">Color</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="font-400 text-9-04 pr-5 pt-10">#1</td>
+                                        <td
+                                            class="w-60-98 height-20-31 rounded-1-81 border-0-9 border-light-gray-color bg-white text-10-85 font-400 p-5 relative">
+                                            <select name="" id=""
+                                                class="text-10-85 appearance-none w-100 border-0 outline-none">
+                                                <option value="S">S</option>
+                                                <option value="M">M</option>
+                                                <option value="L">L</option>
+                                            </select>
+                                            <span class="w-5-42 height-5-42 absolute right-10">▾</span>
+                                        </td>
+                                        <td
+                                            class="w-60-98 height-20-31 rounded-1-81 border-0-9 border-light-gray-color bg-white text-10-85 font-400 p-5 relative">
+                                            <select name="" id=""
+                                                class="text-10-85 appearance-none w-100 border-0 outline-none">
+                                                <option value="Black">Black</option>
+                                                <option value="Blue">Blue</option>
+                                                <option value="Red">Red</option>
+                                            </select>
+                                            <span class="w-5-42 height-5-42 absolute right-10">▾</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="font-400 text-9-04 pr-5 pt-10">#2</td>
+                                        <td
+                                            class="w-60-98 height-20-31 rounded-1-81 border-0-9 border-light-gray-color bg-white text-10-85 font-400 p-5 relative">
+                                            <select name="" id=""
+                                                class="text-10-85 appearance-none w-100 border-0 outline-none">
+                                                <option value="L">L</option>
+                                                <option value="M">M</option>
+                                                <option value="S">S</option>
+                                            </select>
+                                            <span class="w-5-42 height-5-42 absolute right-10">▾</span>
+                                        </td>
+                                        <td
+                                            class="w-60-98 height-20-31 rounded-1-81 border-0-9 border-light-gray-color bg-white text-10-85 font-400 p-5 relative">
+                                            <select name="" id=""
+                                                class="text-10-85 appearance-none w-100 border-0 outline-none">
+                                                <option value="Blue">Blue</option>
+                                                <option value="Black">Black</option>
+                                                <option value="Red">Red</option>
+                                            </select>
+                                            <span class="w-5-42 height-5-42 absolute right-10">▾</span>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <!-- Price -->
+                <div class="flex flex-col">
+                    <span class="text-14-46 font-600">$24.00 USD</span>
+                    <span class="font-400 text-10 text-decoration-line-through very-light-gray">$24.00 USD</span>
+                </div>
+            </article>
+        </section>
+
+        <footer>
+            <div class="flex justify-between text-14">
+                <p class="font-500 primary">Free Delivery</p>
+                <p class="font-400">Total : $18.00 USD</p>
+            </div>
+            <button
+                class="w-100 white bg-primary p-10 rounded-4 border-0 font-500 text-12 gap-8 justify-center align-center cursor-pointer">
+                <span class="text-16">+</span>
+                <span>Add to Cart</span>
+            </button>
+        </footer>
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
